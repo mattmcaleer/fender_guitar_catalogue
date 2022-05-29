@@ -4,6 +4,12 @@ Fender Guitar Catalogue Provides a CLI to view the entire catalogue of Fender el
 
 ## Install Instructions ##
 
+tbc
+
 ## Contributing ##
 
+tbc
+
 ## License ##
+
+tbc

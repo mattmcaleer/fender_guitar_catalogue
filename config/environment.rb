@@ -1,5 +1,5 @@
 require "open-uri"
 require "nokogiri"
-require_relative "../lib/guitar.rb"
-require_relative "../lib/cli.rb"
-require_relative "../lib/scraper.rb"
+require_relative "../lib/fender_guitar_catalogue/guitar.rb"
+require_relative "../lib/fender_guitar_catalogue/cli.rb"
+require_relative "../lib/fender_guitar_catalogue/scraper.rb"

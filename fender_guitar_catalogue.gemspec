@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Fender Guitar Catalogue"
   spec.description = "Provides information on all Fender electric, acoustic and bass guitars."
-  spec.homepage = "http://rubygems.org/gems/"
+  spec.homepage = "https://rubygems.org/gems/fender_guitar_catalogue"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["homepage_uri"] = spec.homepage

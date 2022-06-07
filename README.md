@@ -4,19 +4,13 @@ Fender Guitar Catalogue Provides a CLI to view the entire catalogue of Fender el
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'fender_guitar_catalogue'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
     $ gem install fender_guitar_catalogue
+
+## Usage
+
+    Type the below and follow the prompts.
+
+    $ fender_guitar_catalogue
 
 ## Development
 

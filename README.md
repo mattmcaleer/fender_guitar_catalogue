@@ -8,7 +8,7 @@ Fender Guitar Catalogue Provides a CLI to view the entire catalogue of Fender el
 
 ## Usage
 
-    Type the below and follow the prompts.
+Type the below and follow the prompts.
 
     $ fender_guitar_catalogue
 

@@ -30,7 +30,7 @@ class CLI
             puts ""
             show_details
         elsif input == "4"
-            puts "Goodbye"
+            puts "Goodbye!"
         else
             puts "Invalid selection."
             menu
@@ -41,7 +41,7 @@ class CLI
         puts "Which guitar would you like information on?"
         input = gets.chomp.to_i
         puts ""
-        if input > 149 || input < 1
+        if input < 1 || input > Guitar.all.count
             puts "!Invalid selection - Please choose a different model!"
             puts ""
             show_details
@@ -56,16 +56,16 @@ class CLI
     input = gets.chomp
     puts ""
         if input.downcase == "y"
-            system("clear")
             Guitar.all.clear
+            system("clear")
             menu
         elsif input.downcase == "n"
             puts "Goodbye"
+            system("clear")
         else 
             puts "Invalid selection."
             anything_else
         end
     end
-
     
 end

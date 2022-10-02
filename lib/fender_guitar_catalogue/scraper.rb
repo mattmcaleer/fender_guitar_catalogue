@@ -9,7 +9,7 @@ class Scraper
     BASE_URL = "https://www.fender.com/en-AU/"
 
     def get_page(url = BASE_URL)
-        Nokogiri::HTML(open(url))
+        Nokogiri::HTML(URI.open(url))
     end
 
     def scrape(type)
